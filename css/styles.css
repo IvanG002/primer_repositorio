@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* 
+font-family: 'Bebas Neue', sans-serif;
+*/
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Bebas Neue', sans-serif;
+    background-color: #004872;
+}
+header{
+    background-color: #121212;
+    text-align: center;
+    height: 75px;
+}
+.logo img{
+    width: 80px;
+    padding: 20px;
+}
+.nav-list li{
+    display:inline-block;
+    padding: 0 70px;
+    color: white;
+    vertical-align: middle;
+}
+.nav-link{
+    text-decoration: none;
+    color: #ececec;
+}
+.principal{
+    background: linear-gradient(rgba(9, 114, 201, 0.753), rgba(0, 0, 0, 0.705)), url(../assets/images/seleccion.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 700px;
+    width: auto;
+}
+.description{
+    color: #ececec;
+    font-size: 2rem;
+}
+.title{
+    text-align: center;
+    font-size: 12rem;
+    color: rgb(235, 235, 235);
+    padding-top: 200px;
+    text-shadow: 0px 0px 40px #000000ab;
+}
+.container-1{
+    display:flex;
+    background-color: rgb(29, 29, 29);
+}
+.container-1 img{
+    height: 630px;
+    position: absolute;
+    top: 650px;
+    left: 50px;
+}
+.container-1 p{
+    padding: 50px 100px 45px 900px;
+}
+.container-2{
+    display: flex;
+    background-color: #11a9e6;
+}
+.container-2 p{
+    padding: 100px 100px;
+}
+.container-3{
+    display: flex;
+    background-color: rgb(1, 42, 80);
+    vertical-align: center;
+}
+.container-3 img{
+    height: 530px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.container-3 p{
+    padding: 150px 100px 0 200px;
+}
+footer{
+    background-color: #121212;
+}
+footer h2{
+    padding: 20px;
+    text-align: center;
+    color: #ececec;
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border:3px solid white;
+    width: 350px;
+    height: 550px;
+    margin: 20px;
+    background-color: #ffffff;
+}
+.card h2{
+    font-size: 40px;
+    color: #0f84e4;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height: 500;
+    object-fit: cover;
+}
+.item-stats{
+    color: #ececec;
+}
+.list-stats{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sectitle{
+    text-align: center;
+    font-size: 50px;
+    color: #ececec;
+}
+.subtitle{
+    padding: 90px;
+    text-align: center;
+    font-size: 90px;
+    color: #ececec;
+}
+.list-stats li{
+    font-size: 30px;
+    display:inline-block;
+    padding: 30px;
+    color: white;
+}
+.style-1{
+    background-color: #0f84e4;
+}
+.style-2{
+    background-color: #1d1d1d;
+}
+.banderas{
+    width: 300px;
+    border: 5px solid white;
+}
+.resultados{
+    font-size: 100px;
+    color: #ececec;
+    margin: 50px;
+}
+.partidos{
+    display:flex;
+    padding: 80px;
+    justify-content:space-between;
+    align-items: center;
+}
+.final{
+    background-color: #b88700;
+}
+.instancia{
+    font-size: 100px;
+    color: #ececec;
+    padding: 50px;
+    text-align: center;
+}
+.paises{
+    font-size: 60px;
+    color: #ececec;
+    padding: 15px;
+}
+label{
+    font-size: 50px;
+    color: #ececec;
+}
+.contacto, .redes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+input{
+    width: 200px;
+    height: 50px;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+}
+.redes img{
+    width: 50px ;
+    padding: 0px 10px;
+}
+.redes{
+    height: 150px;
+}
