@@ -7,11 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- link CSS-->
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Contacto</title>
+    <title>Momentos</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
                 <!--LOGO-->
               <a class="navbar-brand" href="../index.html"><img src="../assets/images/afalogo.png" alt="AFA" class="logo"></a>
@@ -38,7 +38,7 @@
                         <a class="nav-link" href="partidos.html">Partidos</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="c">Contacto</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="Momentos.html">Momentos</a>
@@ -49,32 +49,43 @@
           </nav>
     </header>
     <main>
-        <section class="principal">
-            <h1 class="title">Contacto</h1>
-        </section>
-        <section>
-            <form>
-                <div class="contacto">
-                    <label for="texto">Nombre:</label>
-                    <input type="text" name="texto" placeholder="escriba su nombre">
-                </div>
-                <div class="contacto">
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" placeholder="escriba su Email">
-                </div>
-                <div class="contacto">
-                    <label for="numero">Numero telefonico:</label>
-                    <input type="number" name="numero" placeholder="escriba su numero telefonico">
-                </div>
-                <div class="contacto">
-                    <label for="texto">Texto:</label>
-                    <textarea name="texto" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
-                </div>
-                <div class="contacto">
-                    <input type="submit" value="enviar">
-                </div>
-            </form>
-        </section>
+    <section>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/images/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/images/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section class="galeria">
+        <img class="fotogaleria" src="../assets/images/messigaleria.jpg" alt="messi" >
+        <img class="fotogaleria expand" src="../assets/images/cabezasogaleria.jpg"alt="Cabezaso" >
+        <img class="fotogaleria" src="../assets/images/dimariagaleria.jpg" alt="Di Maria" >
+        <img class="fotogaleria" src="../assets/images/festejogaleria.jpg" alt="Festejo" >
+        <img class="fotogaleria" src="../assets/images/lautarogaleria.jpg" alt="Lautaro Martinez" >
+        <img class="fotogaleria expand" src="../assets/images/selecciongaleria.jpg" alt="Seleccion" >
+        <img class="fotogaleria" src="../assets/images/enzogaleria.jpg" alt="Enzo Fernandez" >
+    </section>
+
+
+
+
+
     </main>
     <footer>
         <h2>Campeones del mundo</h2>
