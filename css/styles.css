@@ -24,26 +24,7 @@ header nav{
     color: #ececec;
     font-size: 20px;
 }
-@media(max-width: 991px){
-    .sidebar{
-        background-color: black;
-    }
-}
-
-
-/*
-.nav-list li{
-    display:inline-block;
-    padding: 0 70px;
-    color: white;
-    vertical-align: middle;
-}
-
-*/
-/* navbar */
-
-
-
+/* titulo de todas las paginas */
 .principal{
     background: linear-gradient(rgba(9, 114, 201, 0.753), rgba(0, 0, 0, 0.705)), url(../assets/images/seleccion.jpg);
     background-size: cover;
@@ -52,10 +33,6 @@ header nav{
     height: 700px;
     width: auto;
 }
-.description{
-    color: #ececec;
-    font-size: 2rem;
-}
 .title{
     text-align: center;
     font-size: 12rem;
@@ -63,6 +40,15 @@ header nav{
     padding-top: 200px;
     text-shadow: 0px 0px 40px #000000ab;
 }
+
+
+
+/* page inicio */
+.description{
+    color: #ececec;
+    font-size: 2rem;
+}
+
 .container-1{
     display:flex;
     background-color: rgb(29, 29, 29);
@@ -112,10 +98,15 @@ footer h2{
     justify-content: center;
     align-items: center;
 }
+
+
+
+/* page jugadores */
+
 .card{
     border:3px solid white;
     width: 350px;
-    height: 550px;
+    height: 100%;
     margin: 20px;
     background-color: #ffffff;
 }
@@ -129,6 +120,9 @@ footer h2{
     height: 500;
     object-fit: cover;
 }
+
+/* page estadisticas */
+
 .item-stats{
     color: #ececec;
 }
@@ -188,6 +182,10 @@ footer h2{
     color: #ececec;
     padding: 15px;
 }
+
+
+
+/* page contactos */
 label{
     font-size: 50px;
     color: #ececec;
@@ -243,11 +241,18 @@ textarea{
     }
     .title{
         text-align: center;
-        font-size: 7rem;
+        font-size: 3rem;
+        padding-top: 150px;
     }
 
     /*page momentos*/
     .galeria{
         grid-template-columns: repeat(1,1fr);
+    }
+}
+/* MEDIA QUERY NAVBAR */
+@media(max-width: 991px){
+    .sidebar{
+        background-color: black;
     }
 }
